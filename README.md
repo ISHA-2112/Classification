@@ -6,7 +6,7 @@ The model makes use of customer data and provides an analysis of the risk involv
 &nbsp;<br>
 
 The link to the application is: [STREAMLIT_APP](https://creditriskanalysis-isha-2112.streamlit.app/)
-
+&nbsp;<br>
 The data is acquired from: [Kaggle](https://www.kaggle.com/datasets/ppb00x/credit-risk-customers)  
 
 The classes in the dataset are highly skewed. To avoid problems related to class imbalance SMOTE oversampling technique is used. 
