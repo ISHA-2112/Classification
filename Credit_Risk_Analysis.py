@@ -7,22 +7,22 @@ def load():
     model.load_model('xgb.json')
     return model
 model = load()
-st.header('Enter the following information of the client:')
+
 checking_status =st.selectbox('Status of existing checking account:',  ['0<=amount<200', '<0', '>=200', 'no checking'])
 
 duration = st.number_input('Loan Duration:', min_value=4.0, max_value=60.0, value=4.0)
 
-credit_amount = st.number_input('Credit amount:', min_value=250.0, max_value=3000000.0, value=250.0)
+credit_amount = st.number_input('Credit amount:', min_value=250.0, max_value=18424.0, value=250.0)
 
-installment_commitment = st.number_input('Number of committed installments:', min_value=1.0, max_value=20.0, value=1.0)
+installment_commitment = st.number_input('Number of committed installments:', min_value=1.0, max_value=4.0, value=1.0)
 
 residence_since = st.number_input('Number of years residing in the given address:', min_value=1.0, max_value=30.0, value=1.0)
 
-age = st.number_input('Age:', min_value=19.0, max_value=95.0, value=19.0)
+age = st.number_input('Age:', min_value=19.0, max_value=75.0, value=19.0)
 
-existing_credits = st.number_input('Existing Credit Points:', min_value=1.0, max_value=5.0, value=1.0)
+existing_credits = st.number_input('Existing Credit Points:', min_value=1.0, max_value=4.0, value=1.0)
 
-num_dependents = st.number_input('Number of dependent people:', min_value=1.0, max_value=20.0, value=1.0)
+num_dependents = st.number_input('Number of dependent people:', min_value=1.0, max_value=8.0, value=1.0)
 
 credit_history = st.selectbox('Credit History:',['all paid', 'critical/other existing credit', 'delayed previously', 'existing paid', 'no credits/all paid'])
 
@@ -31,8 +31,6 @@ purpose = st.selectbox('Purpose of Loan:',['business', 'domestic appliance', 'ed
 savings_status = st.selectbox('Savings Status:',['100<=amount<500', '500<=amount<1000', '<100', '>=1000', 'no known savings'])
 
 employment =  st.selectbox('Years of Employment:',['1<=years<4', '4<=years<7', '<1', '>=7', 'unemployed'])
-
-other_parties =  st.selectbox('Other party information:',['co applicant', 'guarantor', 'none'])
 
 job = st.selectbox('Job type:',['high qualified/self employed', 'skilled', 'unemployed', 'unskilled resident'])
 
@@ -46,7 +44,6 @@ credit_history,
 purpose,
 savings_status,
 employment,
-other_parties,
 job,
 own_telephone,
 foreign_worker,]
@@ -74,10 +71,9 @@ credit_history = encode(credit_history,1)
 purpose = encode(purpose,2)
 savings_status = encode(savings_status,3)
 employment = encode(employment,4)
-other_parties = encode(other_parties,5)
-job = encode(job,6)
-own_telephone = encode(own_telephone,7)
-foreign_worker = encode(foreign_worker,8)
+job = encode(job,5)
+own_telephone = encode(own_telephone,6)
+foreign_worker = encode(foreign_worker,7)
         
 data = [[checking_status, duration, credit_history, purpose,
        credit_amount, savings_status, employment,
