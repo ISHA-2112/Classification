@@ -1,7 +1,7 @@
 # Credit_Risk_Analysis
-Credit Risk is assesed by analysing the reputation of our customer. In other words, it indicates the credibility of the borrower.  
+Credit Risk is assessed by analysing the reputation of our customers. In other words, it indicates the credibility of the borrower.  
 
-In this project I have used a Machine Learning model to predict how likelihood of repayment.
+In this project, I have used a Machine Learning model to predict the likelihood of repayment.
 The model makes use of customer data and provides an analysis of the risk involved.  
 
 The data is acquired from: [DATASET](https://www.kaggle.com/datasets/ppb00x/credit-risk-customers) 
@@ -15,7 +15,7 @@ The accuracy of the final model is 82.50% and the confusion matrix and classific
 
   
 The model is then deployed using Streamlit Cloud.  
-The deployed model takes in customer information and predicts if risk is associated.  
+The deployed model takes in customer information and predicts if any risk is associated.  
 An overview of the application:    
 
   
