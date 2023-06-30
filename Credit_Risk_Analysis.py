@@ -7,7 +7,7 @@ def load():
     model.load_model('xgb.json')
     return model
 model = load()
-
+st.header('Enter the following information of the client:')
 checking_status =st.selectbox('Status of existing checking account:',  ['0<=amount<200', '<0', '>=200', 'no checking'])
 
 duration = st.number_input('Loan Duration:', min_value=4.0, max_value=60.0, value=4.0)
