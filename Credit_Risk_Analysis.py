@@ -55,7 +55,6 @@ mapper = [['0<=amount<200', '<0', '>=200', 'no checking'],
 ['business', 'domestic appliance', 'education', 'furniture/equipment', 'new car', 'other', 'radio/tv', 'repairs', 'retraining', 'used car'],
 ['100<=amount<500', '500<=amount<1000', '<100', '>=1000', 'no known savings'],
 ['1<=years<4', '4<=years<7', '<1', '>=7', 'unemployed'],
-['co applicant', 'guarantor', 'none'],
 ['high qualified/self employed', 'skilled', 'unemployed', 'unskilled resident'],
 ['none', 'yes'],
 ['no', 'yes']]
