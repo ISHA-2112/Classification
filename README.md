@@ -1,6 +1,5 @@
 # Credit_Risk_Analysis
-Credit Risk is assesed by analysing the reputation of our customer.   
-In other words, it indicates the credibility of the borrower.  
+Credit Risk is assesed by analysing the reputation of our customer. In other words, it indicates the credibility of the borrower.  
 
 In this project I have used a Machine Learning model to predict how likelihood of repayment.
 The model makes use of customer data and provides an analysis of the risk involved.  
