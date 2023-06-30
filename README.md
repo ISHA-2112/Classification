@@ -11,10 +11,9 @@ The classes in the dataset are highly skewed. To avoid problems related to class
 After preprocessing the data the model is built using XGBoost Classifier.  
 
 The accuracy of the final model is 82.50% and the confusion matrix and classification report are as follows:  
-
-  
-
-  
+&nbsp;<br>
+&nbsp;<br>
+&nbsp;<br>
 ![confusion](https://github.com/ISHA-2112/Credit_Risk_Analysis/assets/89999331/554a85ba-f40d-496b-bcb3-f50aada95fc4)
 ![classification](https://github.com/ISHA-2112/Credit_Risk_Analysis/assets/89999331/cb54f28b-fdd7-450b-aaf3-69aefe8825a7)
 
