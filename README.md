@@ -9,8 +9,9 @@ The data is acquired from: [DATASET](https://www.kaggle.com/datasets/ppb00x/cred
 The classes in the dataset are highly skewed. To avoid problems related to class imbalance SMOTE oversampling technique is used.   
 After preprocessing the data the model is built using XGBoost Classifier.  
 The accuracy of the final model is 82.50% and the confusion matrix and classification report are as follows:  
-![confusion](https://github.com/ISHA-2112/Credit_Risk_Analysis/assets/89999331/d3e23e99-f788-4b20-944e-35cb87e7ddb9)
-![classification](https://github.com/ISHA-2112/Credit_Risk_Analysis/assets/89999331/5575edcd-5015-43c1-a323-79b6c3255c1b)  
+![confusion](https://github.com/ISHA-2112/Credit_Risk_Analysis/assets/89999331/7e3b3b0e-6646-4e01-9693-cf5095956eb9)
+![classification](https://github.com/ISHA-2112/Credit_Risk_Analysis/assets/89999331/6bd1bcdd-96cb-4183-bf72-bbff4fa16227)
+
 The model is then deployed using Streamlit Cloud.  
 The deployed model takes in customer information and predicts if risk is associated.  
 An overview of the application:  
