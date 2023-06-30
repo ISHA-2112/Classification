@@ -24,6 +24,7 @@ The accuracy of the final model is 82.50% and the confusion matrix and classific
 &nbsp;<br>
 The model is then deployed using Streamlit Cloud.  
 The deployed model takes in customer information and predicts if any risk is associated.  
+&nbsp;<br>  
 An overview of the application:    
 &nbsp;<br>
 &nbsp;<br>
@@ -36,4 +37,5 @@ An overview of the application:
 <hr>
 &nbsp;<br>
 &nbsp;<br>
+
 The link to the application is: [STREAMLIT_APP](https://creditriskanalysis-isha-2112.streamlit.app/)
