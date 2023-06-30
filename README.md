@@ -2,7 +2,10 @@
 Credit Risk is assessed by analysing the reputation of our customers. In other words, it indicates the credibility of the borrower.  
 
 In this project, I have used a Machine Learning model to predict the likelihood of repayment.
-The model makes use of customer data and provides an analysis of the risk involved.  
+The model makes use of customer data and provides an analysis of the risk involved. The model is deployed to a webiste.  
+&nbsp;<br>
+
+The link to the application is: [STREAMLIT_APP](https://creditriskanalysis-isha-2112.streamlit.app/)
 
 The data is acquired from: [Kaggle](https://www.kaggle.com/datasets/ppb00x/credit-risk-customers)  
 
