@@ -96,5 +96,8 @@ class1 = {
 if st.button('Predict'):
     price = model.predict(x)
     print(price)
-    st.success('It is '+ class1[price[0]] +' to give loan to this client')
+    if price[0] == 1:
+        st.success('It is SAFE to give loan to this client')
+    else:
+        st.error('It is RISKY to give loan to this client')
 
